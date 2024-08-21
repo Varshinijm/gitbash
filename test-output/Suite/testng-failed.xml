@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="WatchBatchExecutionTestNG.Fossil">
+        <methods>
+          <include name="fossil"/>
+        </methods>
+      </class> <!-- WatchBatchExecutionTestNG.Fossil -->
+      <class name="WatchBatchExecutionTestNG.JokerAndWitch">
+        <methods>
+          <include name="jokerAndWitch"/>
+        </methods>
+      </class> <!-- WatchBatchExecutionTestNG.JokerAndWitch -->
+      <class name="WatchBatchExecutionTestNG.Helios">
+        <methods>
+          <include name="helios"/>
+        </methods>
+      </class> <!-- WatchBatchExecutionTestNG.Helios -->
+      <class name="LearningTestNG.DependsOnMethodsHelperAttribute">
+        <methods>
+          <include name="openAccount"/>
+          <include name="addBenificiary"/>
+          <include name="amountTransfer"/>
+        </methods>
+      </class> <!-- LearningTestNG.DependsOnMethodsHelperAttribute -->
+      <class name="WatchBatchExecutionTestNG.Boat">
+        <methods>
+          <include name="boat"/>
+        </methods>
+      </class> <!-- WatchBatchExecutionTestNG.Boat -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

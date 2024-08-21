@@ -1,0 +1,7 @@
+send("E:\course era\certificate\android_app.pdf")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{ENTER}")

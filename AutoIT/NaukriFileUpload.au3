@@ -1,0 +1,7 @@
+send("D:\onlinecourseTextBook\Programming-Embedded-Systems-in-C-and-C-by-Michael-Barr.pdf")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{ENTER}")
